@@ -1,4 +1,4 @@
-# Candy-Machine-Mint
+# Llama-Machine-Mint
 
 The Candy-Machine-Mint project is designed to let users fork, customize, and deploy their own candy machine mint app to a custom domain, ultra fast.
 
