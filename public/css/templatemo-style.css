@@ -5,9 +5,9 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: url('../images/banner1ALT.png') no-repeat center !important;
+ 		background: url('../images/finalbanner.png') no-repeat center !important;
  		color: #ffffff;
-		font-family: "Cinzel" !important;
+		font-family: "Concert One" !important;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: #5bff95;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #5bff95; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -218,7 +218,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #ffffff;
+		color: #5bff95;
 		font-weight: bold;
 	}
 #home .btn
@@ -243,6 +243,7 @@ header .social-icon li a
 .element {
 	height: 60px;
 	font-size: 16px;
+	text-align: center;
 }
 /* end home */
 
