@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: #5bff95;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #5bff95; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -208,7 +208,7 @@ header .social-icon li a
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
-		min-height: 850px;
+		min-height: 900px;
 	}
 #home h1
 	{
@@ -218,7 +218,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #ffffff;
+		color: #5bff95;
 		font-weight: bold;
 	}
 #home .btn
@@ -302,23 +302,23 @@ header .social-icon li a
 	}
 /* end team */
 
-/* start service */
-#service .col-md-4
+/* start roadmap */
+#roadmap .col-md-4
 	{
 		padding: 40px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
-#service .col-md-4:hover
+#roadmap .col-md-4:hover
 	{
 		background: #505050;
 	}
-#service .active
+#roadmap .active
 	{
 		background: #505050;
 		padding: 40px;
 	}
-#service .fa
+#roadmap .fa
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -329,14 +329,14 @@ header .social-icon li a
 		line-height: 100px;
 		text-align: center;
 	}
-#service h4
+#roadmap h4
 	{
 		color: #28a7e9;
 		font-weight: 600;
 		padding-top: 10px;
 		padding-bottom: 14px;
 	}
-/* end service */
+/* end roadmap */
 
 /* start portfolio */
 #portfolio

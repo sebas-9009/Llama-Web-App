@@ -2,6 +2,8 @@ import "./App.css";
 import { useMemo } from "react";
 
 import Home from "./Home";
+import zwwa4weylmylo2at05aq from "./zwwa4weylmylo2at05aq";
+
 
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
@@ -21,6 +23,8 @@ import {
 
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
+import { Route } from "react-router-dom";
+
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -83,6 +87,7 @@ const App = () => {
   );
 
   return (
+    <Route exact path="/zwwa4weylmylo2at05aq" component={zwwa4weylmylo2at05aq}>
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
@@ -99,6 +104,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+    </Route>
   );
 };
 
