@@ -2,10 +2,9 @@
 Awesome Template
 http://www.templatemo.com/preview/templatemo_450_awesome
 */
-
 body
 	{
- 		background: url('../images/finalbanner.png') no-repeat center !important;
+ 		background: url('../images/lightbanner.png') no-repeat center !important;
  		color: #ffffff;
 		font-family: "Concert One" !important;
 		font-weight: 300;
@@ -26,6 +25,7 @@ h2
 		text-align: center;
 		font-size: 40px;
 		padding-bottom: 40px;
+		text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 	}	
 h2 span
 	{
@@ -181,13 +181,14 @@ header .social-icon li a
 .navbar-default .navbar-nav li a
 	{
 		font-weight: bold;
-		font-size: 13px;
+		font-size: 25px;
 		height: 70px;
 		line-height: 40px;
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
 	color: #5bff95; 
+	text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -204,7 +205,7 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background: url('../images/llamasfinal.png') no-repeat center;
+		background: url('../images/darkbanner.png') no-repeat center;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
@@ -215,6 +216,7 @@ header .social-icon li a
 		font-weight: 300;
 		font-size: 70px;
 		padding-bottom: 10px;
+		text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 	}
 #home h1 span
 	{
