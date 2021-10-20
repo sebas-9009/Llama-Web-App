@@ -52,12 +52,21 @@
 						<li><a href="#about">ABOUT</a></li>
 						<li><a href="#team">TEAM</a></li>
 						<li><a href="#roadmap">ROADMAP</a></li>
-    					<li><a href="https://discord.gg/neXwCm8C9c" target="_blank" rel="noopener noreferrer" class="fab fa-discord"></a></li>
-    					<li><a href="https://twitter.com/LLLNFTs" target="_blank" rel="noopener noreferrer" class="fab fa-twitter" ></a></li>
+    					<li><a onclick="redirect('discordLink')" class="fab fa-discord"></a></li>
+    					<li><a onclick="redirect('twitterLink')" class="fab fa-twitter" ></a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
+		<script>
+			function redirect(s){
+				if(s=="discordLink")
+				{
+					window.open('https://discord.gg/neXwCm8C9c','_blank');
+				}else
+				window.open('https://twitter.com/LLLNFTs','_blank');
+			}
+		</script>
 		<!-- end navigation -->
 
     	<!-- start home -->
