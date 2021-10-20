@@ -165,10 +165,11 @@ header .social-icon li a
 /* start nagivation */
 .navbar-default
 	{
-		background: url('../images/banner1ALT.png') no-repeat center !important;
+		background: url('../images/banner1ALT.png') !important;
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
+		
 	}
 .navbar-default .navbar-brand
 	{
@@ -179,6 +180,7 @@ header .social-icon li a
 		padding: 15px;
 		color: #5bff95;
     	text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+		
 	}
 .navbar-title{
 	color: #5bff95 !important;
@@ -217,7 +219,7 @@ header .social-icon li a
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
-		min-height: 900px;
+		min-height: 1280px;
 	}
 #home h1
 	{
