@@ -220,8 +220,9 @@ header .social-icon li a
 	{
 		background: url('../images/lightbanner.png') no-repeat center;
 		background-size: cover;
-		min-height: 950px;
-		padding: 20%;
+		padding-top: 160px;
+		padding-bottom: 100px;
+		min-height: 1050px;
 	}
 #home h1
 	{
@@ -558,6 +559,23 @@ header .social-icon li a
 /* end 360 media quires */
 
 /* start 768 media quires */
+@media only screen and ( min-width: 3840px ) {
+	#home
+		{
+			min-height: 2000px;
+			padding-top: 160px;
+			padding-bottom: 100px;
+		}
+	}
+
+@media only screen and ( min-width: 2501px ) and ( max-width: 3840px ) {
+	#home
+		{
+			min-height: 1350px;
+			padding-top: 160px;
+			padding-bottom: 100px;
+		}
+	}
 @media only screen and ( max-width: 767px ) {
 	#home
 		{
