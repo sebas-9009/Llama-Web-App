@@ -23,7 +23,7 @@ a:hover {
 h2
 	{
 		text-align: center;
-		font-size: 40px;
+		font-size: 50px;
 		padding-bottom: 40px;
 		text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 	}	
@@ -165,10 +165,11 @@ header .social-icon li a
 /* start nagivation */
 .navbar-default
 	{
-		background: url('../images/banner1ALT.png') no-repeat center !important;
+		background: url('../images/banner1ALT.png') !important;
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
+		
 	}
 .navbar-default .navbar-brand
 	{
@@ -176,24 +177,36 @@ header .social-icon li a
 		font-size: 30px;
 		height: 70px;
 		line-height: 40px;
-		padding: 12px 0px 0px 12px;
+		padding: 15px;
+		color: #5bff95;
+    	text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+		
 	}
+.navbar-title{
+	color: #5bff95 !important;
+}
 .navbar-default .navbar-nav li a
 	{
 		font-weight: bold;
 		font-size: 25px;
 		height: 70px;
 		line-height: 40px;
+		display: inline-block;
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
 	color: #5bff95; 
 	text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+	display: inline-block;
 }
 .templatemo-nav {
 	border-radius: 0;	
 	width: 100%;
 	z-index: 1000;
+	position: fixed;
+	left: 0;
+	top: 0;	
+	display: inline-block;
 }
 .sticky {	
 	position: fixed;
@@ -205,18 +218,18 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background: url('../images/darkbanner.png') no-repeat center;
+		background: url('../images/lightbanner.png') no-repeat center;
 		background-size: cover;
 		padding-top: 160px;
 		padding-bottom: 100px;
-		min-height: 900px;
+		min-height: 1050px;
 	}
 #home h1
 	{
 		font-weight: 300;
 		font-size: 70px;
 		padding-bottom: 10px;
-		text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
 	}
 #home h1 span
 	{
@@ -280,7 +293,6 @@ header .social-icon li a
 #team .team-wrapper
 	{
 		background: #404040;
-		padding-bottom: 10px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 		position: relative;
@@ -293,15 +305,22 @@ header .social-icon li a
 	}
 #team .team-wrapper .team-des
 	{
-		padding: 20px;
 	}
 #team .team-wrapper .team-des span
 	{
-		color: #28a7e9;
+		color: #5bff95;
 		display: block;
+		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
 		font-weight: bold;
 		padding-bottom: 12px;
+		font-size: 20px;
 	}
+#team h4
+{
+	font-size: 22px;
+	text-shadow: 0 0 5px #000000, 0 0 20px #000000;
+	margin-bottom: 1px;
+}
 /* end team */
 
 /* start roadmap */
@@ -540,6 +559,23 @@ header .social-icon li a
 /* end 360 media quires */
 
 /* start 768 media quires */
+@media only screen and ( min-width: 3840px ) {
+	#home
+		{
+			min-height: 2000px;
+			padding-top: 160px;
+			padding-bottom: 100px;
+		}
+	}
+
+@media only screen and ( min-width: 2501px ) and ( max-width: 3840px ) {
+	#home
+		{
+			min-height: 1350px;
+			padding-top: 160px;
+			padding-bottom: 100px;
+		}
+	}
 @media only screen and ( max-width: 767px ) {
 	#home
 		{
