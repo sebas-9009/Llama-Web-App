@@ -639,6 +639,8 @@ header .social-icon li a
 	height: 525px;
 	width: 525px;
 	margin: auto auto; 
+	max-width: 100%;
+
   }
   
   .item img {
@@ -681,3 +683,9 @@ h3 span
 		font-weight: bold;
 	}
 /* end h2 */
+
+@media only screen and ( max-width: 375px ) {
+.carousel-caption{
+	padding-top: 330px;
+}
+}

@@ -633,3 +633,51 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+/* start carousel css*/
+.carousel .item {
+	height: 525px;
+	width: 525px;
+	margin: auto auto; 
+  }
+  
+  .item img {
+	  position: absolute;
+	  object-fit:cover;
+	  top: 0;
+	  left: 0;
+  }
+
+  .carousel-dimensions {
+	  width: 525px;
+	  height: 525px;
+  }
+
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+	padding-top: 480px;
+	text-shadow: 2px 2px #000000;
+}
+  .carousel-control.left,
+  .carousel-control.right {
+  background: transparent;
+  position: absolute;
+  }
+
+/* end carousel css */
+
+/* start h2 */
+h3
+	{
+		text-align: center;
+		font-size: 35px;
+		text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+	}	
+h3 span
+	{
+		color: #5bff95;
+		font-weight: bold;
+	}
+/* end h2 */
