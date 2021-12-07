@@ -612,6 +612,24 @@ header .social-icon li a
 		line-height: 35px;
 	}
 }
+.gallery-filter span{
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 0 0 5px #000000, 0 0 20px #000000;
+	border-bottom: 2px solid transparent;
+	padding: 15px;
+	cursor: pointer;
+}
+.gallery-filter .active{
+	color: #5bff95;
+}
+.gallery-item-inner{
+/*margin: auto;*/
+width: 525px;
+max-width: 100%;
+padding-top: 10px;
+}
+
 /* end 768 media quires */
 
 /* start 360 media quires */
