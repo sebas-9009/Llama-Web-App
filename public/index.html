@@ -50,10 +50,11 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#top">HOME</a></li>
 						<li><a href="#about">ABOUT</a></li>
-						<li><a href="#team">TEAM</a></li>
+						<li><a href="#team">TEAM</a></li>						
 						<li><a href="#roadmap">ROADMAP</a></li>
+						<li><a href="#rarity">RARITY</a></li>
 						<li><a href="#gallery">GALLERY</a></li>
-    					<li><a href="https://discord.gg/dxHdqR5hhu" onclick="redirect('discordLink')" class="fab fa-discord" style="cursor: pointer;"></a></li>
+    					<li><a href="https://discord.gg/Gaag7wZgvU" onclick="redirect('discordLink')" class="fab fa-discord" style="cursor: pointer;"></a></li>
     					<li><a href="https://twitter.com/LLLNFTs" onclick="redirect('twitterLink')" class="fab fa-twitter" style="cursor: pointer;"></a></li>
 					</ul>
 				</div>
@@ -175,6 +176,209 @@
     		</div>
     	</section>
     	<!-- end roadmap -->
+
+		<!-- start rarity calculator -->
+		<section id="rarity">
+			<div class="col-md-12">
+				<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s" style="padding-top: 60px;">Calculate <span>Rarity</span></h2>
+			</div>
+			<div class="rarityCol">
+				<div class="aux">
+					<span class="rarityAtt">Backgrounds</span>
+				</div>
+			<select id="backgrounds">
+				<option value=2>Aqua</option>
+				<option value=2>Blue</option>
+				<option value=2>Brown</option>
+				<option value=2>Dark Brown</option>
+				<option value=4>Forest</option>
+				<option value=2>Green</option>
+				<option value=2>Lime</option>
+				<option value=16>Lucky</option>
+				<option value=2>Pink</option>
+				<option value=2>Purple</option>
+				<option value=2>Red</option>
+				<option value=32>Space</option>
+				<option value=2>Yellow</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Eyes</span><br>
+			</div>
+			<select id="eyes">
+				<option value=4>Blue</option>
+				<option value=4>Brown</option>
+				<option value=2>Confused</option>
+				<option value=2>Crazy</option>
+				<option value=2>Cute</option>
+				<option value=8>Devil</option>
+				<option value=16>Dollar</option>
+				<option value=8>Heart</option>
+				<option value=32>Laser</option>
+				<option value=16>Lucky</option>
+				<option value=4>Mad</option>
+				<option value=4>Sad</option>
+				<option value=32>Sage Mode Six Paths</option>
+				<option value=32>Sharingan</option>
+				<option value=2>Sleeping</option>
+				<option value=16>Solana</option>
+				<option value=8>Stoned</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Face</span><br>
+			</div>
+			<select id="face">
+				<option value=8>Buu</option>
+				<option value=16>Cyborg</option>
+				<option value=4>Devil</option>
+				<option value=32>Diamond</option>
+				<option value=16>Lucky</option>
+				<option value=4>Manga</option>
+				<option value=2>Normal</option>
+				<option value=2>Orange</option>
+				<option value=8>Paint</option>
+				<option value=2>Pink</option>
+				<option value=2>Purple</option>
+				<option value=4>Robot</option>
+				<option value=16>Rock</option>
+				<option value=8>Runes</option>
+				<option value=32>Stars</option>
+				<option value=32>Sunset</option>
+				<option value=2>Yellow</option>
+				<option value=8>Zombie</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Fur</span><br>
+			</div>
+			<select id="fur">
+				<option value=4>Aqua</option>
+				<option value=2>Black</option>
+				<option value=4>Bricks</option>
+				<option value=8>Candy</option>
+				<option value=8>Cloth</option>
+				<option value=8>Coffee</option>
+				<option value=8>Cotton Candy</option>
+				<option value=32>Diamond</option>
+				<option value=32>Fireworks</option>
+				<option value=4>Grass</option>
+				<option value=2>Green</option>
+				<option value=16>Hairy</option>
+				<option value=8>Ice</option>
+				<option value=8>Leaves</option>
+				<option value=16>Lucky</option>
+				<option value=4>Pattern</option>
+				<option value=16>Rainbow</option>
+				<option value=2>Red</option>
+				<option value=16>Rock</option>
+				<option value=8>Runes</option>
+				<option value=32>Sunset</option>
+				<option value=2>White</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Head</span><br>
+			</div>
+			<select id="head">
+				<option value=8>Alpaca</option>
+				<option value=32>Astronaut</option>
+				<option value=2>Beanie</option>
+				<option value=4>Birthday</option>
+				<option value=2>Elf</option>
+				<option value=8>Halo</option>
+				<option value=4>Hat</option>
+				<option value=16>Headband</option>
+				<option value=2>Headphone</option>
+				<option value=8>Horns</option>
+				<option value=16>Lucky</option>
+				<option value=16>Luffy</option>
+				<option value=16>Marge</option>
+				<option value=2>Normal</option>
+				<option value=2>Piercing</option>
+				<option value=16>Pokemon</option>
+				<option value=4>Police</option>
+				<option value=8>Santa</option>
+				<option value=16>SS(Super Saiyin)</option>
+				<option value=32>SSGSS(Super Saiyin God Super Saiyin)</option>
+				<option value=4>Viking</option>
+				<option value=2>Wings</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Mouth</span><br>
+			</div>
+			<select id="mouth">
+				<option value=8>Alien</option>
+				<option value=32>Gold</option>
+				<option value=2>Grin</option>
+				<option value=2>Happy</option>
+				<option value=16>Innapropriate</option>
+				<option value=2>Mad</option>
+				<option value=4>Sad</option>
+				<option value=4>Surprised</option>
+				<option value=4>Teeth</option>
+				<option value=8>Tongue</option>
+				<option value=16>Uwu</option>
+				<option value=16>Zombie</option>
+			</select>
+			<div class="aux">
+				<br><span class="rarityAtt">Outfit</span><br>
+			</div>
+			<select id="outfit">
+				<option value=16>Akatsuki</option>
+				<option value=32>Astronaut</option>
+				<option value=16>Barcelona</option>
+				<option value=2>Beach</option>
+				<option value=8>Biker</option>
+				<option value=4>Caution</option>
+				<option value=8>Chain</option>
+				<option value=4>Christmas</option>
+				<option value=4>Fancy</option>
+				<option value=32>Goku</option>
+				<option value=32>Hockage</option>
+				<option value=2>Hoodie</option>
+				<option value=2>Kimono</option>
+				<option value=4>Lego</option>
+				<option value=16>Lucky</option>
+				<option value=16>Luffy</option>
+				<option value=8>Police</option>
+				<option value=2>Shirt</option>
+				<option value=4>Suit</option>
+				<option value=8>Surgeon</option>
+			</select>
+			</div>
+			<br><br><br><br>
+			<button onclick="rarityCalc()">Calculate Rarity</button>
+			<script>
+				function rarityCalc(){
+					var backgrounds = parseInt(document.getElementById("backgrounds").value);
+					var eyes = parseInt(document.getElementById("eyes").value);
+					var face = parseInt(document.getElementById("face").value);
+					var fur = parseInt(document.getElementById("fur").value);
+					var head = parseInt(document.getElementById("head").value);
+					var mouth = parseInt(document.getElementById("mouth").value);
+					var outfit = parseInt(document.getElementById("outfit").value);
+					var aux ="";
+					var rarity ="";
+					var sum = parseInt(backgrounds + eyes + face + fur + head + mouth + outfit);
+					if(sum>=0 && sum <=25){
+						rarity = "RARE"
+						aux = "10%"
+					}
+					else if(sum>=26 && sum<=35){
+						rarity = "LEGENDARY"
+						aux = "15%";
+					}
+					else if(sum>=36 && sum<=55){
+						rarity = "EXOTIC"
+						aux = "25%";
+					}
+					else if(sum>=56){
+						rarity = "MYTHIC"
+						aux = "50%";
+					}
+					alert("Your llama is "+rarity+ "! Congrats! Your llama has "+sum+" points and you will be getting a royalty share of "+aux);
+				}
+			</script>
+		</section>
+	
+		<!-- end rarity calculator -->
 
 
 		<!-- start gallery -->
@@ -807,7 +1011,7 @@
 					</div>
 					
 					<div class="gallery-item fur">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 50px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 5px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Fur/Fireworks.png" class="img-responsive">
 								<h3>Fireworks <span class = mythic>Mythic</span></h3>
@@ -816,7 +1020,7 @@
 					</div>
 					
 					<div class="gallery-item fur">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Fur/Sunset.png" class="img-responsive">
 								<h3>Sunset <span class = mythic>Mythic</span></h3>
@@ -830,7 +1034,7 @@
 					<!--START HEAD-->
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Beanie.png" class="img-responsive">
 								<h3>Beanie <span>Common</span></h3>
@@ -839,7 +1043,7 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Hat.png" class="img-responsive">
 								<h3>Hat <span>Common</span></h3>
@@ -848,7 +1052,7 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 50px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 5px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Headphone.png" class="img-responsive">
 								<h3>Headphone <span>Common</span></h3>
@@ -857,7 +1061,7 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Normal.png" class="img-responsive">
 								<h3>Normal <span>Common</span></h3>
@@ -866,16 +1070,25 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Piercing.png" class="img-responsive">
 								<h3>Piercing <span>Common</span></h3>
 							</div>
 						</div>
 					</div>
+
+					<div class="gallery-item head">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
+							<div class="gallery-item-inner">
+								<img src="images/Attributes/Head/Wings.png" class="img-responsive">
+								<h3>Wings <span>Common</span></h3>
+							</div>
+						</div>
+					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Birthday.png" class="img-responsive">
 								<h3>Birthday <span class = rare>Rare</span></h3>
@@ -884,25 +1097,16 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Elf.png" class="img-responsive">
 								<h3>Elf <span class = rare>Rare</span></h3>
 							</div>
 						</div>
-					</div>
+					</div>			
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
-							<div class="gallery-item-inner">
-								<img src="images/Attributes/Head/Pokemon.png" class="img-responsive">
-								<h3>Pokemon <span class = rare>Rare</span></h3>
-							</div>
-						</div>
-					</div>
-					
-					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Police.png" class="img-responsive">
 								<h3>Police <span class = rare>Rare</span></h3>
@@ -911,25 +1115,16 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Viking.png" class="img-responsive">
 								<h3>Viking <span class = rare>Rare</span></h3>
 							</div>
 						</div>
-					</div>
-					
-					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
-							<div class="gallery-item-inner">
-								<img src="images/Attributes/Head/Wings.png" class="img-responsive">
-								<h3>Wings <span class = rare>Rare</span></h3>
-							</div>
-						</div>
-					</div>
+					</div>					
 
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Alpaca.png" class="img-responsive">
 								<h3>Alpace <span class = legendary>Legendary</span></h3>
@@ -938,7 +1133,7 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Devil.png" class="img-responsive">
 								<h3>Devil <span class = legendary>Legendary</span></h3>
@@ -947,7 +1142,7 @@
 					</div>
 					
 					<div class="gallery-item head">
-						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 40px;">
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Halo.png" class="img-responsive">
 								<h3>Halo <span class = legendary>Legendary</span></h3>
@@ -960,6 +1155,15 @@
 							<div class="gallery-item-inner">
 								<img src="images/Attributes/Head/Santa.png" class="img-responsive">
 								<h3>Santa <span class = legendary>Legendary</span></h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="gallery-item head">
+						<div class="col-md-3 col-sm-6 col-xs-12" style="margin-bottom: 90px;">
+							<div class="gallery-item-inner">
+								<img src="images/Attributes/Head/Pokemon.png" class="img-responsive">
+								<h3>Pokemon <span class = exotic>Exotic</span></h3>
 							</div>
 						</div>
 					</div>

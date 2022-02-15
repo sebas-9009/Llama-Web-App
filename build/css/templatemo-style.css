@@ -14,9 +14,33 @@ body
 a {
 	color: #47C6F8;
 }
+select{
+	color:green;
+	text-align: center;
+}
+option{
+	color:green;
+}
+#rarity{
+	text-align: center;
+}
+
+button{
+	color: green;
+}
 	
 a:hover {
 	color: #0FF;
+}
+.rarityCol{
+	display: inline-grid;
+}
+.rarityAtt{
+	color:green;
+	font-size: 24px;
+}
+.aux{
+	text-align:left;
 }
 
 /* start h2 */
@@ -36,7 +60,7 @@ h2 span
 
 /* start about team service portfolio contact */
 #about, #team, #service,
-#portfolio, #contact
+#portfolio, #contact, #rarity
 	{
 		padding-top: 60px;
 		padding-bottom: 40px;
@@ -629,6 +653,12 @@ width: 525px;
 max-width: 100%;
 padding-top: 10px;
 }
+
+.gallery-item{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
 
 /* end 768 media quires */
 
